@@ -1,0 +1,17 @@
+/* footer */
+.title_footer {
+  border: 3px solid yellow;
+  letter-spacing: 3px;
+}
+.icons_social i {
+  font-size: 1.4rem;
+}
+.text_footer {
+  margin-top: 1.9rem;
+  color: #eee;
+  line-height: 1.9rem;
+}
+.footer_info_address {
+  color: #000;
+  font-family: Arial;
+}

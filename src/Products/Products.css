@@ -1,0 +1,48 @@
+.categories li {
+  cursor: pointer;
+  margin: 0.4rem 0;
+}
+.categories li:first-child {
+  margin-top: 0;
+}
+.categories li:hover {
+  color: #693d96;
+  font-weight: 700;
+}
+.bycolor .color_item {
+  color: #2e5aec;
+  font-weight: 700;
+}
+.bycolor .box_color {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  margin-right: 7px;
+}
+.box_color--red {
+  background: #da0808;
+}
+
+.box_color--black {
+  background: #080707;
+}
+.box_color--green {
+  background: #08da59;
+}
+.box_color--blue {
+  background: #3415e6;
+}
+
+.features .img_container .add_btn {
+  transform: translateX(110%);
+  transition-duration: 1s;
+  
+}
+.features .img_container:hover .add_btn {
+  transform: translateX(0);
+}
+.btn-warning:hover {
+  color: #212529;
+  background-color: #e0a800;
+  border-color: #d39e00;
+}
